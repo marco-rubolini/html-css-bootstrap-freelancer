@@ -1,0 +1,30 @@
+.navbar-default {
+    background-color: #313e4f;
+}
+
+.navbar-default .navbar-brand, .navbar-default .navbar-nav>li>a {
+    color: white;
+}
+
+section {
+    background-color: #66ba9e;
+}
+
+#start-bootstrap {
+    color: white;
+}
+
+.trattino {
+    width: 110px;
+    height: 6px;
+    background-color: white;
+    border-radius: 10px;
+    display: inline-block;
+    line-height: 50px;
+    padding-top: 0px;
+    margin-bottom: 17px;
+}
+
+.glyphicon-star {
+    font-size: 50px;
+}
