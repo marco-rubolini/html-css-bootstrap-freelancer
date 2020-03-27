@@ -15,6 +15,7 @@
 
 .navbar-default .navbar-brand, .navbar-default .navbar-nav>li>a {
     color: white;
+    font-weight: 700;
 }
 
 .navbar-default {
@@ -40,5 +41,5 @@
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 5rem;
 }
