@@ -43,3 +43,35 @@
 h1 {
     font-size: 5rem;
 }
+
+.separatore-light, .separatore-dark {
+    width: 250px;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.separatore-light::before, .separatore-light::after, .separatore-dark::before, .separatore-dark::after  {
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: calc((100% - 60px) / 2);
+    height: 3px;
+}
+
+.separatore-light::before, .separatore-dark::before {
+    left: 0;
+}
+
+.separatore-light::after, .separatore-dark::after {
+    right: 0;
+}
+
+.separatore-light::before, .separatore-light::after {
+    background-color: white;
+}
+
+.separatore-dark::before, .separatore-dark::after {
+    background-color: black;
+}
