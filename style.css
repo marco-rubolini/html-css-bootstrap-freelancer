@@ -126,7 +126,8 @@ h1 {
 
 .form-group {
     border-bottom: 1px solid #e9ecef;
-    padding-bottom: 15px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 .section-green {
@@ -148,7 +149,6 @@ footer {
 }
 
 footer .fab {
-    color: white;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -158,11 +158,20 @@ footer .fab {
 
 .btn-social {
     position: relative;
-    border: 2px solid white;
+    border: 2px solid #f8f9fa;
     border-radius: 100%;
     width: 50px;
     height: 50px;
+    color: white;
 }
+
+.btn-social:hover {
+    background-color: #f8f9fa;
+    color: #212529;
+    border-color: #f8f9fa;
+}
+
+
 
 .btn-grey {
     color: #f8f9fa;
@@ -182,6 +191,12 @@ footer .fab {
     color: #fff;
     background-color: #1abc9c;
     border-color: #1abc9c;
+}
+
+.btn-green:hover {
+    color: #fff;
+    background-color: #159a80;
+    border-color: #148f77;
 }
 
 #footer-top, #footer-bottom {
