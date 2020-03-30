@@ -107,3 +107,16 @@ h1 {
     transform: translate(-50%, -50%);
     color: white;
 }
+
+.form-contact {
+    font-size: 1.5em;
+    padding-right: 0;
+    padding-left: 0;
+    border: 0;
+    width: 100%;
+}
+
+.form-group {
+    border-bottom: 1px solid #e9ecef;
+    padding-bottom: 15px;
+}
