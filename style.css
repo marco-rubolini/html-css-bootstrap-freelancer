@@ -120,3 +120,46 @@ h1 {
     border-bottom: 1px solid #e9ecef;
     padding-bottom: 15px;
 }
+
+.section-green {
+    background-color: #66ba9e;
+    color: white;
+}
+
+.section-white {
+    background-color: white;
+}
+
+section {
+    padding: 70px 0;
+}
+
+footer {
+    background-color: #2c3e50;
+    color: white;
+}
+
+footer .fab {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: large;
+}
+
+.btn-social {
+    position: relative;
+    border: 2px solid white;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+}
+
+#footer-top, #footer-bottom {
+    padding: 20px 0;
+}
+
+#footer-bottom {
+    background-color: black;
+}
