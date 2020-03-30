@@ -29,6 +29,14 @@
     margin-bottom: 0;
 }
 
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+    color: white;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color:#1abc9c;
+}
+
 #start-bootstrap {
     background-color: #66ba9e;
     color: white;
@@ -156,10 +164,54 @@ footer .fab {
     height: 50px;
 }
 
+.btn-grey {
+    color: #f8f9fa;
+    text-transform: capitalize;
+    border: 1px solid white;
+    border-color: #f8f9fa;
+    font-size: 20px;
+}
+
+.btn-grey:hover {
+    color: #212529;
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+}
+
+.btn-green {
+    color: #fff;
+    background-color: #1abc9c;
+    border-color: #1abc9c;
+}
+
 #footer-top, #footer-bottom {
     padding: 20px 0;
 }
 
 #footer-bottom {
     background-color: black;
+}
+
+.lead {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+#about {
+    color: #f8f9fa;
+}
+
+a {
+    color: #1abc9c;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a:hover {
+    color: #117964;
+    text-decoration: underline;
+}
+
+#footer-top h3 {
+    margin-bottom: 30px;
 }
